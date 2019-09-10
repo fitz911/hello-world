@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.text{
+	padding-top: 48px;
+	text-align: center;
+	height: 106px;
+	background-color: #1A1A1A;
+
+}
+.text h1{
+	margin: 0;
+	line-height: 100px;
+	color: white;
+	font-size: 48px;
+	font-family: 'Audiowide', cursive;
+}
+
+#navbar {
+  background-color: black; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Audiowide', cursive;
+}
+
+#navbar a:hover {
+  background-color: #509F6D;
+}
+
+/*afternavbar*/
+
+.subheading{
+	display:inline;
+	text-decoration: none;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+  	padding: 15px;
+ 	color: white;
+ 	font-size: 30px;
+}
+#section1 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+hr {
+	height: 5px; /* make it smaller */
+	border: 0; /* remove white outline */
+	width: 100%; /* change length of hr */
+	padding: 0px; /* remove gap after hr */
+	margin: 0px; /* remove gap after hr */
+	color: #ccba7c;
+	background-color: #509F6D;
+}
+
+#section1 img{
+	width: 300px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+#section1 img:hover{
+	width: 325px;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}

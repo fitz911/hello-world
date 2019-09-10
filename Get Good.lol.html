@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Get Good.lol</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript">
+			/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("navbar").style.top = "0";
+				} else {
+					document.getElementById("navbar").style.top = "-50px";
+			}
+				prevScrollpos = currentScrollPos;
+			}
+		</script>
+		<style>
+			html {
+			  scroll-behavior: smooth;
+			}
+
+			#section1{
+			  height: 600px;
+			  background-color: pink;
+			}
+
+			#section2{
+			  height: 600px;
+			  background-color: yellow;
+			}
+
+			#section3{
+				height: 600px;
+				background-color: orange;
+			}
+		</style>
+	</head>
+
+
+
+	<body>
+		<div id="section0" class="text">
+			<img src="images/Aim-Trainer-Anime.gif" width="500">
+			<h1></h1>
+			<p class="subheading"></p></a>
+		</div>
+
+		<div id="navbar">
+			<a href="#section0">Home</a>
+		  	<a href="#section1">Games</a>
+		  	<a href="#section2">About</a>
+		 	<a href="#section3">Contact</a>
+		</div>
+
+		<div id="section1">
+	        <p class="subheading">1</p></a>
+		</div>
+
+		<div id="section2">
+			<p class="subheading">2</p></a>
+		</div>
+
+		<div id="section3">
+			<p class="subheading">3</p></a>
+		</div>
+	</body>
+</html>
