@@ -1,0 +1,11 @@
+When you open the computer for first time
+Open git bash
+Type “cd”
+Type “cd aeHTML-CSS”
+Type “cd web”
+
+When you want to update website
+Type “git add .”
+Type ‘git add -m “a short message”
+Type git push
+Wait 30 seconds and website should update

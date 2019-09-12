@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.text{
+  padding-top: 48px;
+  text-align: center;
+  height: 106px;
+  background-color: #1A1A1A;
+
+}
+.text h1{
+  margin: 0;
+  line-height: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Audiowide', cursive;
+}
+
+#navbar{
+  background-color: black; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Audiowide', cursive;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+#navbar a:hover{
+  background-color: #509F6D;
+  width: 76px;
+  transition-duration: 0.3s;
+  font-size: 20px;
+
+}
+
+/*afternavbar*/
+
+.subheadinginline{
+  display:inline;
+  padding: 1px;
+}
+
+.subheading{
+  text-decoration: none;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+hr{
+  height: 5px; /* make it smaller */
+  border: 0; /* remove white outline */
+  width: 100%; /* change length of hr */
+  padding: 0px; /* remove gap after hr */
+  margin: 0px; /* remove gap after hr */
+  color: #ccba7c;
+  background-color: #509F6D;
+}
+
+#section1img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+}
+
+#section1img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#section1img img{
+  width: 300px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  transition-duration: 0.3s;
+}
+
+#section1img img:hover{
+  width: 325px;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  transition-duration: 0.3s;
+}
