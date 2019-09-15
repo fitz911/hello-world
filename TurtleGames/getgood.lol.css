@@ -41,7 +41,6 @@ body{
 
 #navbar a:hover{
   background-color: #509F6D;
-  width: 110px;
   transition-duration: 0.3s;
   font-size: 20px;
 

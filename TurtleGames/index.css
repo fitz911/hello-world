@@ -8,9 +8,8 @@ body{
   text-align: center;
   height: 106px;
   background-color: #1A1A1A;
-  text-shadow: 4px 4px 25px white; 
-
 }
+
 .text h1{
   margin: 0;
   line-height: 100px;
@@ -42,7 +41,6 @@ body{
 
 #navbar a:hover{
   background-color: #509F6D;
-  width: 76px;
   transition-duration: 0.3s;
   font-size: 20px;
 
@@ -101,9 +99,18 @@ hr{
   transition-duration: 0.3s;
 }
 
+#section3imgtext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+}
+
 #section3imgtext img{
-  float: right;
-  padding-right: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #section3imgtext img{
@@ -120,12 +127,16 @@ hr{
   transition-duration: 0.3s;
 }
 
-#section3imgtext p{
-  float: left;
+#newreleases{
+  text-align: center;
   font-family: 'Audiowide', cursive;
-  line-height: 150px;
-  vertical-align: middle;
-  padding-left: 15%;
   font-size: 60px;
+  color: white;
+}
+
+#version{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
   color: white;
 }
