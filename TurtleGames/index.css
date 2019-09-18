@@ -54,11 +54,12 @@ body{
 }
 
 .subheading{
+
   text-decoration: none;
   font-family: 'Audiowide', cursive;
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 36px;
 }
 
 hr{
@@ -98,6 +99,26 @@ hr{
   filter: alpha(opacity=100);
   transition-duration: 0.3s;
 }
+
+#section2text{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.85vw;
+  color: white;
+  padding-top: 1%;
+  padding-left: 12%;
+  padding-right: 12%;
+  line-height: 216%;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 #section3imgtext{
   display: block;
