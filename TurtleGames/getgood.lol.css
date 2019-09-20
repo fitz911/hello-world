@@ -89,6 +89,7 @@ hr{
   width: 475px;
   opacity: 1.0;
   filter: alpha(opacity=100);
+  transition-duration: 0.3s
 }
 
 #section1img img:hover{
@@ -96,4 +97,16 @@ hr{
   opacity: 1.0;
   filter: alpha(opacity=100);
   transition-duration: 0.3s;
+}
+
+#aboutgame{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.85vw;
+  color: white;
+  padding-top: 1%;
+  padding-left: 12%;
+  padding-right: 12%;
+  line-height: 216%;
+  padding-bottom: 20px;
 }

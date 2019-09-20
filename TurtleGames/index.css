@@ -103,7 +103,8 @@ hr{
 #section2text{
   text-align: center;
   font-family: 'Audiowide', cursive;
-  font-size: 1.85vw;
+  font-size: 3.6vh;
+  font-size: 3.6vmin;
   color: white;
   padding-top: 1%;
   padding-left: 12%;
@@ -111,14 +112,6 @@ hr{
   line-height: 216%;
   padding-bottom: 20px;
 }
-
-
-
-
-
-
-
-
 
 #section3imgtext{
   display: block;
@@ -160,4 +153,12 @@ hr{
   font-family: 'Audiowide', cursive;
   font-size: 20px;
   color: white;
+}
+
+#checkitout{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 16.69px;
+  color: white;
+  padding-top: 1%;
 }
