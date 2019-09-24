@@ -88,15 +88,6 @@ hr{
 #section1img img{
   width: 475px;
   opacity: 1.0;
-  filter: alpha(opacity=100);
-  transition-duration: 0.3s
-}
-
-#section1img img:hover{
-  width: 500px;
-  opacity: 1.0;
-  filter: alpha(opacity=100); 
-  transition-duration: 0.3s;
 }
 
 #aboutgame{
@@ -110,4 +101,19 @@ hr{
   padding-right: 12%;
   line-height: 216%;
   padding-bottom: 20px;
+}
+
+#newupdate{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+#updatelist{
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  color: white;
+  padding-top: 2px;
+  padding-left: 0.5%;
 }
